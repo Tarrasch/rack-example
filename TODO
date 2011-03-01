@@ -1,0 +1,6 @@
+
+== A little TODOs list
+
+
+* Add ERB templateing system(make it agile for future haml or other template engines integration)
+* Add a namespace for all engine's classes

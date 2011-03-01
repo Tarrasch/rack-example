@@ -2,9 +2,12 @@ $:.unshift File.dirname(__FILE__)
 
 require 'monkey_extensions'
 
+require 'erb'
+
 require 'request'
 require 'response'
 require 'router'
+require 'template'
 require 'controller'
 
 class RackExample

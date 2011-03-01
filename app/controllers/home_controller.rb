@@ -1,7 +1,8 @@
 class HomeController < Controller
 
 	def index
-		"Саня жопкэ!"
+		@title = "Reck Example"
+		erb 'home/index'		
 	end
 	
 end
