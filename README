@@ -1,0 +1,6 @@
+
+=== Rack Example Application
+
+
+Here's an application, built as a rack middleware.
+It allows you to add persons to database and marry them
