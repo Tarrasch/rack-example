@@ -1,6 +1,9 @@
 
 == A little TODOs list
 
-
-* Add ERB templateing system(make it agile for future haml or other template engines integration)
 * Add a namespace for all engine's classes
+* Add a response time handler(as a rack middleware)
+* Make wildcard routes
+* Add class autoloading (rails-like)
+* Add partial rendering
+* Update engine loading procedure
