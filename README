@@ -1,6 +1,14 @@
 
 === Rack Example Application
 
+That's what we build it for:
 
-Here's an application, built as a rack middleware.
-It allows you to add persons to database and marry them
+  Here's an application, built as a rack middleware.
+  It allows you to add persons to database and marry them
+  
+But as you see for building apps on raw rack there should be a lot of helpful stuff, 
+that's why it's kinda own little framework.
+
+Check TODO list for current goals, you can contact me and join, or fork this lil' project, welcome.
+
+If you have any advices or suggestions - free to contact me, too!
