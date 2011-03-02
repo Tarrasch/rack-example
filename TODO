@@ -6,3 +6,4 @@
 * Add class autoloading (rails-like)
 * Add partial rendering
 * Update engine loading procedure
+* We need a name for this little engine
