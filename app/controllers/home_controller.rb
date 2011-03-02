@@ -1,7 +1,7 @@
 class HomeController < Controller
 
 	def index
-		@title = "Reck Example"
+		@title = "Rack Example"
 		erb 'home/index'		
 	end
 	

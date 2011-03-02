@@ -2,7 +2,6 @@
 == A little TODOs list
 
 * Add a namespace for all engine's classes
-* Add a response time handler(as a rack middleware)
 * Make wildcard routes
 * Add class autoloading (rails-like)
 * Add partial rendering
