@@ -5,6 +5,8 @@
 * Make wildcard routes
 * Add class autoloading (rails-like)
 * Add partial rendering
-* Update engine loading procedure
+* Add layout rendering
+* Add environments
+* Update engine loading procedure (so some classes in diff envs reload on new request)
 * We need a name for this little engine
 * Add ORM support (AR, Datamapper, Sequel)
