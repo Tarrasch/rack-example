@@ -12,6 +12,10 @@ class Controller
     Template.render(filename, self)
   end
 
+  def haml(filename)
+    Template.render(filename, self)
+  end
+
   def get_binding
     binding
   end
