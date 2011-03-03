@@ -3,6 +3,7 @@ $:.unshift File.dirname(__FILE__)
 require 'monkey_extensions'
 
 require 'erb'
+require 'haml'
 
 require 'request'
 require 'response'
