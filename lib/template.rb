@@ -8,6 +8,8 @@ module Template
 
 
   class ErbEngine
+    require 'erb'
+  
     def initialize(filename)
       @template = ERB.new(File.read("app/views/#{filename}.erb"))
     end
@@ -18,6 +20,8 @@ module Template
   end
 
   class HamlEngine
+    require 'haml'
+  
     def initialize(filename)
       @template = Haml::Engine.new(File.read("app/views/#{filename}.haml"))
     end

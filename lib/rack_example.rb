@@ -2,25 +2,29 @@ $:.unshift File.dirname(__FILE__)
 
 require 'monkey_extensions'
 
-require 'erb'
-require 'haml'
-
-require 'request'
-require 'response'
-require 'router'
-require 'template'
-require 'controller'
-
 module RackExample
 
   class Application
     def call(env)
+      load_core
       request = Request.new(env)
+     
       require 'config/routes.rb'
       Router.route(request)
 
       Router.route(request)
     end
+    
+    private
+    
+      def load_core
+        require 'request'
+        require 'response'
+        require 'router'
+        require 'template'
+        require 'controller'
+      end
+    
   end
 
   class ResponseTimer
